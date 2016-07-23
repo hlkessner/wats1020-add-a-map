@@ -1,12 +1,29 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  padding-left: 100px;
+  padding-right: 100px; 
+}
+/* Table formatting */
+td {
+  width: 50%; 
+  padding: 10px; 
+  border-bottom: solid;
+}
 
-#map-container { height: 180px; }
-
-
-
-
+/* Carousel formatting */
+#carousel-example-generic {
+  width:100%;
+}
+div.jumbotron {
+  position: center;
+}
+/* map containter */
+div#map {
+  width: 100%;
+}
+#mapid { height: 400px; }
 
 
 
